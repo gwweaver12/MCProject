@@ -1,0 +1,10 @@
+<p>Text Reversal {{"Text Reversal - " | reverse}} </p>
+<input
+  #text
+  [(ngModel)]="value"
+  (keyup) = "reverseText(text.value)"
+>
+<label>{{value | reverse}}</label>
+<label> {{reverseTextValue}}</label>
+
+
